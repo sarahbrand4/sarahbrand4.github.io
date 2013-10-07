@@ -15,8 +15,8 @@ p {
 }
 
 header {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #545CCC;
+    color: #333333;
     height: 40px;
 }
 
@@ -35,7 +35,7 @@ header nav {
 }
 
 header a {
-    color: #aaaaaa;
+    color: #333333;
     margin-right: 20px;
     text-decoration: none;
 }

@@ -5,96 +5,35 @@
 }
 
 body {
+    background: #2b1b17;
     font-size: 16px;
     line-height: 24px;
-    font-family: minion-pro, serif;
+    font-family: "minion pro", serif;
 }
 
-p {
-    margin-bottom: 16px;
-    font-family: minion-pro, serif;
-}
+/* LAYOUT RULES */
 
 header {
-    background-color: #545CCC;
-    color: #333333;
+    padding:0.625em 5%;
+    font-family: "helvetica medium", arial, sans-serif;
+    font-weight:400;
+    color:#fff;
     height: 40px;
 }
 
-header h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif; 
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px; /* TRouBLe */
-   
-}
-
-
-header nav {
-    float: left;
-    margin-top: 12px;
-}
-
-header a {
-    color: #333333;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: #ffffff;   
-}
-header a:active {
-    text-decoration: underline;
+nav {
+    background-color: #545CCC;
+    padding:0.625em 5%;
+    color: #545CCC;
 }
 
 article {
-    clear: both;
-    padding: 0 10px 0 10px;
-}
-
-article h1 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 4px;
-}
-
-article h2 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 4px;
+    background: #e5e4e2;
+    padding:1.5em 5% 0.625em;
+    color: #2b1b17;
+    font-size:0.9em;
 }
 
 footer {
-    padding: 0 10px 0 10px;
-    background-color: #545CCC;
-    color: #333333;
-    height: 40px;
-}
-
-footer h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif; 
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px; /* TRouBLe */
-   
-}
-
-footer nav {
-    float: left;
-    margin-top: 12px;
-}
-
-footer a {
-    color: #333333;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #ffffff;   
-}
-footer a:active {
-    text-decoration: underline;
+    padding:0.625em 5%;
+    color: #545CCC;

@@ -7,11 +7,12 @@
 body {
     font-size: 16px;
     line-height: 24px;
-    font-family: georgia, sarif;
+    font-family: minion-pro, serif;
 }
 
 p {
     margin-bottom: 16px;
+    font-family: minion-pro, serif;
 }
 
 header {
@@ -28,6 +29,7 @@ header h1 {
     padding: 10px; /* TRouBLe */
    
 }
+
 
 header nav {
     float: left;

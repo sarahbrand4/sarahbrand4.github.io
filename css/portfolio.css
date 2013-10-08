@@ -66,4 +66,33 @@ article h2 {
 
 footer {
     padding: 0 10px 0 10px;
+    background-color: #545CCC;
+    color: #333333;
+    height: 40px;
 }
+
+footer h1 {
+    float: left;
+    font-family: helvetica, arial, sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px; /* TRouBLe */
+   
+}
+
+footer nav {
+    float: left;
+    margin-top: 12px;
+}
+
+footer a {
+    color: #333333;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;   
+}
+footer a:active {
+    text-decoration: underline;

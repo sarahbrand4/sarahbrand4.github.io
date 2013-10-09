@@ -37,3 +37,78 @@ article {
 footer {
     padding:0.625em 5%;
     color: #545CCC;
+}
+
+/* HEADING RULES */
+    
+header h1 {
+    margin:10px 0;
+    font-size:80px;
+    padding-bottom:5px;
+}
+
+article h1 {
+    font-family:"minion pro", serif;
+    font-size:32px;
+    font-weight:400
+    margin:0 0 20px;
+}
+
+/* PARAGRAPH RULES */
+
+article p {
+    margin:16px 0;
+}
+
+/* LIST RULES */
+
+article li {
+    list-style-type:circle;
+    margin-left:24px;
+    margin-bottom:12px;
+}
+
+/* LINK RULES */
+
+nav a:link, nav a:visited {
+    font-family:"minion pro", serif;
+    font-size:24px;
+    font-weight:400;
+    padding:0 16px;
+    color:#2b1b17;
+    text-decoration:none;
+}
+
+nav a:hover, nav a:active{
+    color:#fff;
+    text-decoration:underline;
+}
+
+article a:link, article a:visited {
+    color:#078cb9;
+    text-decoration:none;
+}
+
+article a:hover, article a:active {
+    text-decoration:underline;
+}
+    
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

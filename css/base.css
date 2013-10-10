@@ -17,7 +17,7 @@ header {
     padding:0.625em 5%;
     font-family: "helvetica medium", arial, sans-serif;
     font-weight:400;
-    color:#fff;
+    color:#545CCC;
     height: 40px;
 }
 
@@ -48,6 +48,11 @@ header h1 {
 }
 
 article h1 {
+    box-sizing: border-box;
+    border: 5px solid gray; 
+    border-style:double;
+    margin: 15px;
+    padding: 15px;
     font-family:"minion pro", serif;
     font-size:32px;
     font-weight:400

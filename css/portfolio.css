@@ -5,33 +5,48 @@
 }
 
 body {
+    background: #CCCCCC;
     font-size: 16px;
     line-height: 24px;
-    font-family: georgia, sarif;
 }
 
-p {
-    margin-bottom: 16px;
-}
+/* LAYOUT RULES */
 
 header {
+    padding: 0.625em 5%;
+    color: #3D8697;
+    height: 40px;
+}
+
+nav {
+    background-color: #3D8697;
+    float: right;
+    margin-top: 12px;
+}
+
+article {
+    clear: both;
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    padding: 0 10px 0 10px;
     background-color: #545CCC;
     color: #333333;
     height: 40px;
 }
 
-header h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif; 
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px; /* TRouBLe */
-   
-}
+/* HEADING RULES */
 
-header nav {
+header h1 {
+    margin: 10px 0;
     float: left;
-    margin-top: 12px;
+    font-family: "Helvetica Neue Light", arial, sans-serif;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px;
+   
 }
 
 header a {
@@ -47,15 +62,12 @@ header a:active {
     text-decoration: underline;
 }
 
-article {
-    clear: both;
-    padding: 0 10px 0 10px;
-}
 
 article h1 {
     font-size: 36px;
     line-height: 44px;
-    margin-top: 4px;
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 article h2 {
@@ -64,21 +76,43 @@ article h2 {
     margin-bottom: 4px;
 }
 
-footer {
-    padding: 0 10px 0 10px;
-    background-color: #545CCC;
-    color: #333333;
-    height: 40px;
+/* PARAGRAPH RULES */
+
+article p {
+    margin: 16px 0;
+    font: "Minion Pro", serif;
+    
+    
 }
 
-footer h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif; 
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px; /* TRouBLe */
-   
+/* LIST RULES */
+
+article li {
+    list-style-type: circle;
+    margin-left: 24px;
+    margin-bottom: 12px;
+
 }
+
+/* LINK RULES */
+
+nav a:link, nav a:visited {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 16px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav a:hover, nav a:active {
+    color: #FFFFFF;
+    text-decoration: underline;
+    
+}
+
+/* FOOTER RULES */
+
 
 footer nav {
     float: left;
@@ -94,5 +128,13 @@ footer a {
 footer a:hover {
     color: #ffffff;   
 }
+
 footer a:active {
     text-decoration: underline;
+    
+}
+    
+    
+    
+    
+

@@ -40,54 +40,42 @@ footer {
 header h1 {
     margin: 10px 0;
     font-family: "Helvetica Neue Light", arial, sans-serif;
-    padding-bottom: 5px;
     font-size: 72px;
     font-weight: 500;
-    padding: 10px;
     
 }
 
 header h2 {
     margin: 10px 0;
     font-family: "Helvetica Neue Light", arial, sans-serif;
-    padding-bottom: 5px;
     font-size: 24px;
     font-weight: 500;
-    padding: 10px;
     
 }
 
 article h1 {
-    margin: 10px 0 10px 0;
+    margin: 150px 0 5px 0;
     line-height: 44px;
     font-family: "Helvetica Neue Light", arial, sans-serif;
-    padding-bottom: 5px;
     font-size: 42px;
     font-weight: 500;
-    padding: 10px;
     
 }
 
 
 article h2 {
-    margin: 10px 0;
     font-family: "Helvetica Neue Light", arial, sans-serif;
     line-height: 28px;
-    padding-bottom: 5px;
     font-size: 36px;
     font-weight: 500;
-    padding: 10px;
     
 }
 
 article h3 {
-    margin: 10px 0;
     font-family: "Helvetica Neue Light", arial, sans-serif;
     line-height: 28px;
-    padding-bottom: 5px;
     font-size: 24px;
     font-weight: 500;
-    padding: 10px;
     
 }
     

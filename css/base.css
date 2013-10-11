@@ -20,7 +20,7 @@ header {
 
 nav {
     background-color: #3D8697;
-    float: right;
+    padding-bottom: 10px;
     margin-top: 12px;
 }
 
@@ -31,8 +31,7 @@ article {
 
 footer {
     padding: 0 10px 0 10px;
-    background-color: #545CCC;
-    color: #333333;
+    background-color: #3D8697;
     height: 40px;
 }
 
@@ -40,7 +39,6 @@ footer {
 
 header h1 {
     margin: 10px 0;
-    float: left;
     font-family: "Helvetica Neue Light", arial, sans-serif;
     padding-bottom: 5px;
     font-size: 72px;
@@ -49,12 +47,22 @@ header h1 {
     
 }
 
-
-article h1 {
+header h2 {
     margin: 10px 0;
     font-family: "Helvetica Neue Light", arial, sans-serif;
     padding-bottom: 5px;
-    font-size: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+article h1 {
+    margin: 10px 0 10px 0;
+    line-height: 44px;
+    font-family: "Helvetica Neue Light", arial, sans-serif;
+    padding-bottom: 5px;
+    font-size: 42px;
     font-weight: 500;
     padding: 10px;
     
@@ -64,31 +72,42 @@ article h1 {
 article h2 {
     margin: 10px 0;
     font-family: "Helvetica Neue Light", arial, sans-serif;
+    line-height: 28px;
     padding-bottom: 5px;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
     padding: 10px;
     
 }
+
+article h3 {
+    margin: 10px 0;
+    font-family: "Helvetica Neue Light", arial, sans-serif;
+    line-height: 28px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+    
 header a {
     color: #333333;
     margin-right: 51px;
-    text-decoration: none;
+    text-decoration:none;
+    font-family: "Helvetica Neue Light", arial, sans-serif;
 }
 
-article h1 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 10px;
-    font-weight: 400;
-}
-
-article h2 {
+header nav {
+    font-family: "Helvetica Neue Light", arial, sans-serif;
     font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 4px;
-}
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+    color: #000000;
+    text-decoration: none;
 
+}            
+       
 /* PARAGRAPH RULES */
 
 article p {

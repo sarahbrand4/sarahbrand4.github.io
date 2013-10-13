@@ -13,15 +13,15 @@ body {
 /* LAYOUT RULES */
 
 header {
-    padding: 0.625em 5%;
+    padding: 10px 0 10px 0;
     color: #3D8697;
     height: 40px;
 }
 
 nav {
     background-color: #3D8697;
-    padding-bottom: 10px;
-    margin-top: 12px;
+    padding: 10px 0 10px 0;
+    height: 40px;
 }
 
 article {
@@ -30,10 +30,11 @@ article {
 }
 
 footer {
-    padding: 0 10px 0 10px;
+    padding: 10px 0 10px 0;
     background-color: #3D8697;
     height: 40px;
 }
+    
 
 /* HEADING RULES */
 
@@ -54,11 +55,12 @@ header h2 {
 }
 
 article h1 {
-    margin: 150px 0 5px 0;
+    margin: 130px 0 30px 0;
     line-height: 44px;
     font-family: "Helvetica Neue Light", arial, sans-serif;
     font-size: 42px;
     font-weight: 500;
+    
     
 }
 
@@ -90,7 +92,7 @@ header nav {
     font-family: "Helvetica Neue Light", arial, sans-serif;
     font-size: 24px;
     font-weight: 400;
-    padding: 10px 0 10px 0;
+    padding: 0 10px 0 10px;
     color: #000000;
     text-decoration: none;
 
@@ -101,7 +103,7 @@ header nav {
 article p {
     margin: 16px 0;
     font: "Minion Pro", serif;
-    font-size: 16px;
+    color: #595959;
     
     
 }
@@ -142,7 +144,7 @@ footer nav {
 
 footer a {
     color: #333333;
-    margin-right: 20px;
+    margin-right: 20px
     text-decoration: none;
 }
 

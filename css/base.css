@@ -10,26 +10,29 @@ body {
 /* LAYOUT RULES */
 
 header {
-    margin: 30px 0px 10px 0px;
+    margin: 30px 0px 0 0px;
     text-align:center
 }
 
 nav {
-    background-color: #3D8697;
-    margin: 5px 0 5px 0;
+    margin: 0 0 5px 0;
     text-align:center
 }
 
 article {
-    
     background-color: white;
     margin: 0 40px 0 40px;
+}
+
+article h1 {
+    text-align:center;
+    
 }
 
 footer {
     padding: 10px 0 10px 0;
     background-color: #3D8697;
-    text-align:center
+    text-align:center;
 }
     
 
@@ -68,6 +71,15 @@ article h2 {
     
 }
 
+article h2 em {
+    margin: 0 30px 15px 30px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+    
+}
+
+
 article h3 {
     margin: 0 35px 0 35px;
     font-family: "Helvetica Light", arial, sans-serif;
@@ -92,19 +104,24 @@ header nav {
 header nav a {
     font-family: helvetica, arial, sans-serif;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
     
 
 }
-       
+
+/* INDEX RULES */
+
+article a {
+    column-count: 2;
+}
+
 /* PARAGRAPH RULES */
 
 article p {
     font: minion, serif;
     color: #595959;
     margin: 0 40px 0 40px;
-    
-    
 }
 
 /* LIST RULES */
@@ -118,7 +135,7 @@ article li {
 
 /* LINK RULES */
 
-nav a:link, nav a:visited 
+nav a:link, nav a:visited {
     padding: 0 16px;
     color: #000000;
     text-decoration: none;
@@ -126,32 +143,19 @@ nav a:link, nav a:visited
 }
 
 nav a:hover, nav a:active {
-    color: #FFFFFF;
-    text-decoration: underline;
+    color: red;
+    text-decoration: none;
     
 }
 
 /* FOOTER RULES */
 
-
-footer nav {
-    margin-top: 0
-}
-
 footer a {
     color: #333333;
-    margin-right: 20px;
     text-decoration: none;
 }
 
-footer a:hover {
-    color: #ffffff;   
-}
 
-footer a:active {
-    text-decoration: underline;
-    
-}
     
     
     

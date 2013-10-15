@@ -1,109 +1,108 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: #CCCCCC;
-    font-size: 16px;
-    line-height: 24px;
+    background: #FBFFFE;
 }
 
 /* LAYOUT RULES */
 
 header {
-    padding: 10px 0 10px 0;
-    color: #3D8697;
-    height: 40px;
+    margin: 30px 0px 10px 0px;
+    text-align:center
 }
 
 nav {
     background-color: #3D8697;
-    padding: 10px 0 10px 0;
-    height: 40px;
+    margin: 5px 0 5px 0;
+    text-align:center
 }
 
 article {
-    clear: both;
-    padding: 0 10px 0 10px;
+    
+    background-color: white;
+    margin: 0 40px 0 40px;
 }
 
 footer {
     padding: 10px 0 10px 0;
     background-color: #3D8697;
-    height: 40px;
+    text-align:center
 }
     
 
 /* HEADING RULES */
 
-header h1 {
-    margin: 10px 0;
-    font-family: "Helvetica Neue Light", arial, sans-serif;
-    font-size: 72px;
-    font-weight: 500;
+header h1 a {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 55px;
+    font-weight: lighter;
     
 }
 
 header h2 {
-    margin: 10px 0;
-    font-family: "Helvetica Neue Light", arial, sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-size: 24px;
-    font-weight: 500;
-    
+    font-weight: lighter;
+    color: #3D8697;
 }
 
 article h1 {
-    margin: 130px 0 30px 0;
-    line-height: 44px;
-    font-family: "Helvetica Neue Light", arial, sans-serif;
-    font-size: 42px;
-    font-weight: 500;
+    background-color: #3D8697;
+    margin: 15px 20px 15px 20px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
     
     
 }
 
 
 article h2 {
-    font-family: "Helvetica Neue Light", arial, sans-serif;
-    line-height: 28px;
-    font-size: 36px;
-    font-weight: 500;
+    margin: 0 30px 15px 30px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
     
 }
 
 article h3 {
-    font-family: "Helvetica Neue Light", arial, sans-serif;
-    line-height: 28px;
-    font-size: 24px;
-    font-weight: 500;
+    margin: 0 35px 0 35px;
+    font-family: "Helvetica Light", arial, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
     
 }
     
-header a {
+header h1 a {
     color: #333333;
-    margin-right: 51px;
     text-decoration:none;
-    font-family: "Helvetica Neue Light", arial, sans-serif;
+    font-weight: lighter;
 }
 
 header nav {
-    font-family: "Helvetica Neue Light", arial, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    padding: 0 10px 0 10px;
+    padding: 10px 0 10px 0;
     color: #000000;
     text-decoration: none;
 
-}            
+} 
+
+header nav a {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    
+
+}
        
 /* PARAGRAPH RULES */
 
 article p {
-    margin: 16px 0;
-    font: "Minion Pro", serif;
+    font: minion, serif;
     color: #595959;
+    margin: 0 40px 0 40px;
     
     
 }
@@ -111,17 +110,15 @@ article p {
 /* LIST RULES */
 
 article li {
-    list-style-type: circle;
-    margin-left: 24px;
-    margin-bottom: 12px;
+    list-style-type: none;
+    font: minion, serif;
+    margin: 0 40px 2px 40px;
 
 }
 
 /* LINK RULES */
 
-nav a:link, nav a:visited {
-    font-size: 24px;
-    font-weight: 400;
+nav a:link, nav a:visited 
     padding: 0 16px;
     color: #000000;
     text-decoration: none;
@@ -138,13 +135,12 @@ nav a:hover, nav a:active {
 
 
 footer nav {
-    float: left;
-    margin-top: 12px;
+    margin-top: 0
 }
 
 footer a {
     color: #333333;
-    margin-right: 20px
+    margin-right: 20px;
     text-decoration: none;
 }
 

@@ -17,11 +17,13 @@ header {
 nav {
     margin: 0 0 5px 0;
     text-align:center
+    
 }
 
 article {
     background-color: white;
     margin: 0 40px 0 40px;
+    clear: both;
 }
 
 article h1 {
@@ -31,12 +33,13 @@ article h1 {
 
 footer {
     padding: 10px 0 10px 0;
-    background-color: #3D8697;
+    background-color: none;
     text-align:center;
+    clear:both;
 }
     
 
-/* HEADING RULES */
+/* HEADER RULES */
 
 header h1 a {
     font-family: helvetica, arial, sans-serif;
@@ -51,6 +54,38 @@ header h2 {
     font-weight: lighter;
     color: #3D8697;
 }
+
+
+header h1 a {
+    color: #333333;
+    text-decoration:none;
+    font-weight: lighter;
+}
+
+header nav {
+    padding: 10px 0 10px 0;
+    color: #000000;
+    text-decoration: none;
+
+} 
+
+header nav a {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    border: double;
+    border-width: 5px;
+    border-color: #595959;
+    
+    
+
+}
+
+
+/* ARTICLE RULES */
+
 
 article h1 {
     background-color: #3D8697;
@@ -88,33 +123,34 @@ article h3 {
     
 }
     
-header h1 a {
-    color: #333333;
-    text-decoration:none;
-    font-weight: lighter;
-}
-
-header nav {
-    padding: 10px 0 10px 0;
-    color: #000000;
-    text-decoration: none;
-
-} 
-
-header nav a {
-    font-family: helvetica, arial, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    margin: 0 10px 0 10px;
+#left {
+    float:left;
+    width:550px;
+    background-color:none;
+    margin:10px 0 30px 10px;
     
-
 }
 
-/* INDEX RULES */
-
-article a {
-    column-count: 2;
+#right{
+    float:right;
+    width:550px;
+    background-color:none;
+    margin: 10px 0 30px 10px;
 }
+
+article h1 a {
+    font-weight:lighter;
+    text-decoration:none;
+    text-align:center;
+    background-color: none;
+}
+
+aside {
+    width: 45%;
+    float: right;
+    margin-left: 5%;
+}
+
 
 /* PARAGRAPH RULES */
 
@@ -151,6 +187,7 @@ nav a:hover, nav a:active {
 /* FOOTER RULES */
 
 footer a {
+    clear:both;
     color: #333333;
     text-decoration: none;
 }

@@ -4,7 +4,9 @@
 }
 
 body {
-    background: #DEDEE0;
+    background-image: url(img/paper.jpg);
+    background-repeat:repeat:
+
 }
 
 /* LAYOUT RULES */
@@ -117,6 +119,24 @@ article h3 {
     font-weight: lighter;
     
 }
+
+#left {
+    float:left;
+    width:400px;
+    background-color:none;
+}
+ 
+#right {
+    float:right;
+    width:400px;
+    background-color:none;
+}
+
+
+
+
+
+
 
 
 article h1 a {

@@ -24,18 +24,23 @@ nav {
 
 article {
     background-color: white;
-    margin: 0 40px 0 40px;
+    margin: 0 40px 0 40px; 
+    padding: 5px 5px 5px 5px;
 }
 
 
 footer {
+    margin: 0 40px 0 40px;
     padding: 10px 0 10px 0;
     text-align:center;
     clear:both;
+    background-color: #FFFFFF;
 }
     
 
 /* HEADER RULES */
+
+
 
 header h1 a {
     font-family: helvetica, arial, sans-serif;
@@ -77,42 +82,34 @@ header nav a {
 
 }
 
-
 /* ARTICLE RULES */
 
-
 article h1 {
-    text-align:center;
+    width: 500px;
+    text-align: center;
     background-color: #91C3CF;
-    margin: 15px 20px 15px 20px;
+    margin: 15px 0 15px 0;
+    padding: 2px 0 2px 0;
     font-family: helvetica, arial, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: lighter;
     
-    
 }
-
 
 article h2 {
-    margin: 0 30px 15px 30px;
+    text-align: center;
+    background-color: #91C3CF;
+    margin: 15px 35px 15px 35px;
+    padding: 2px 0 2px 0;
     font-family: helvetica, arial, sans-serif;
     font-size: 26px;
     font-weight: lighter;
-    
-}
-
-article h2 em {
-    margin: 0 30px 15px 30px;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 26px;
-    font-weight: lighter;
-    
     
 }
 
 
 article h3 {
-    margin: 0 35px 0 35px;
+    margin: 0 40px 0 40px;
     font-family: "Helvetica Light", arial, sans-serif;
     font-size: 22px;
     font-weight: lighter;
@@ -129,13 +126,6 @@ article h3 {
     width:400px;
 }
 
-
-
-article h1 a {
-    font-weight:lighter;
-    text-decoration:none;
-    text-align:center;
-}
 
 aside {
     width: 35%;
@@ -154,7 +144,7 @@ article #experience {
 article p {
     font-family: minion, serif;
     color: #000000;
-    margin: 0 40px 0 40px;
+    margin: 0 50px 0 50px;
     font-size: 20px;
     line-height:25px;
 }
@@ -171,9 +161,9 @@ footer p {
 /* LIST RULES */
 
 article li {
-    list-style-type: none;
+    list-style-type: disc;
     font-family: minion, serif;
-    margin: 0 40px 2px 40px;
+    margin: 0 50px 2px 50px;
     font-size:20px;
     line-height: 25px;
 
@@ -193,8 +183,23 @@ nav a:hover, nav a:active {
     text-decoration: none;
     color:#000000;
     
-    
 }
+
+ul a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+ul a:visited {
+    color:#595959;
+}
+
+ul a:hover {
+    color:#3D8697;
+    text-decoration:underline;
+}
+
+
 
 /* FOOTER RULES */
 

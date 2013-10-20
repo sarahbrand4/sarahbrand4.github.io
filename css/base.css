@@ -4,8 +4,8 @@
 }
 
 body {
-    background-image: url(img/paper.jpg);
-    background-repeat:repeat:
+    background-image: url(http://static3.grsites.com/archive/textures/lgrey/lgrey040.jpg);
+    background-repeat:repeat;
 
 }
 
@@ -30,7 +30,6 @@ article {
 
 footer {
     padding: 10px 0 10px 0;
-    background-color: none;
     text-align:center;
     clear:both;
 }
@@ -123,19 +122,12 @@ article h3 {
 #left {
     float:left;
     width:400px;
-    background-color:none;
 }
  
 #right {
     float:right;
     width:400px;
-    background-color:none;
 }
-
-
-
-
-
 
 
 
@@ -143,7 +135,6 @@ article h1 a {
     font-weight:lighter;
     text-decoration:none;
     text-align:center;
-    background-color: none;
 }
 
 aside {
@@ -164,7 +155,7 @@ article p {
     font-family: minion, serif;
     color: #000000;
     margin: 0 40px 0 40px;
-    font-size: px;
+    font-size: 20px;
     line-height:25px;
 }
 

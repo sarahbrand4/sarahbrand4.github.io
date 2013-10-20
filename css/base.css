@@ -30,7 +30,7 @@ nav {
 }
 
 article {
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 0 40px 0 40px; 
     padding: 5px 5px 5px 5px;
     border: hidden;
@@ -118,9 +118,18 @@ article h2 {
     font-family: helvetica, arial, sans-serif;
     font-size: 26px;
     font-weight: lighter;
-    
 }
 
+article h2 a {
+    width: 400px;
+    text-align:center;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+    
+    
+    
+}
 
 article h3 {
     margin: 0 40px 0 40px;
@@ -145,14 +154,26 @@ article h5 {
     text-align: center;
 }
 
-#left {
+#container {
+    width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+
+#container #left {
+    width:400px; 
     float:left;
-    width:400px;
+    margin: 0 0 0 70px;
+    
 }
- 
-#right {
-    float:right;
+
+#container #right {
     width:400px;
+    float: right;
+    margin: 0 70px 0 0;
+
 }
 
 
@@ -176,6 +197,7 @@ article p {
     margin: 0 50px 0 50px;
     font-size: 20px;
     line-height:25px;
+    
 }
 
 footer p {
@@ -197,6 +219,29 @@ article li {
     line-height: 25px;
 
 }
+
+/* IMG RULES */
+
+#headshot {
+    width: 22.6em;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+    border:double;
+    border-width: 7px;
+    border-color: #595959;
+    border-radius: 3px;
+}
+
+h2 a img {
+    width: 400PX;
+
+
+}
+
+
+
 
 /* LINK RULES */
 

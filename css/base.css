@@ -335,7 +335,23 @@ footer a {
     text-decoration: none;
 }
 
-
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding: 3%;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    article {
+        clear:left;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+}
     
     
     

@@ -227,6 +227,7 @@ footer p {
 article li {
     list-style-type: disc;
     font-family: minion, serif;
+    padding-top: px;
     margin: 0 50px 5px 50px;
     font-size:18px;
     line-height: 18px;
@@ -510,11 +511,28 @@ footer a {
     article li {
         list-style-type: disc;
         font-family: minion, serif;
+        padding-top: 5px;
         margin: 0 20px 5px 0px;
         font-size:16px;
         line-height: 18px;
     }
 
-    
-    
+    /* IMG RULES */
+
+    #headshot {
+        width: 22.6em;
+        margin-top: 15px;
+        margin-right: auto;
+        margin-left:auto;
+        margin-bottom: 15px;
+        border:double;
+        border-width: 7px;
+        border-color: #595959;
+        border-radius: 3px;
+    }
+
+    h2 a img {
+        width: 400PX;
+    }
+  
 

@@ -160,21 +160,18 @@ article h5 {
 	margin-left:auto;
 	margin-right:auto;
     padding:0;
-	}
-
+}
 
 
 #container #left {
-    width:400px; 
+    width:50%;
     float:left;
-    margin: 0 0 0 70px;
     
 }
 
 #container #right {
-    width:400px;
+    width:50%;
     float: right;
-    margin: 0 70px 0 0;
 
 }
 
@@ -205,7 +202,7 @@ article #experience {
 /* PARAGRAPH RULES */
 
 article p {
-    font-family: minion, serif;
+    font-family: minion pro, serif;
     color: #000000;
     margin: 0 50px 0 50px;
     font-size: 18px;
@@ -214,7 +211,7 @@ article p {
 }
 
 footer p {
-    font-family: minion, serif;
+    font-family: minion pro, serif;
     color: #595959;
     margin: 0 40px 0 40px;
     font-size: 14px;
@@ -226,8 +223,8 @@ footer p {
 
 article li {
     list-style-type: disc;
-    font-family: minion, serif;
-    padding-top: px;
+    font-family: minion pro, serif;
+    padding-top: 5px;
     margin: 0 50px 5px 50px;
     font-size:18px;
     line-height: 18px;
@@ -235,18 +232,6 @@ article li {
 }
 
 /* IMG RULES */
-
-#headshot {
-    width: 22.6em;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left:auto;
-    margin-bottom: 15px;
-    border:double;
-    border-width: 7px;
-    border-color: #595959;
-    border-radius: 3px;
-}
 
 h2 a img {
     width: 400PX;
@@ -458,23 +443,20 @@ footer a {
     }
 
     #container {
-        width: 1000px;
-        margin-left:auto;
-        margin-right:auto;
-        padding:0;
+        width: 100%;
 	}
 
 
-
     #container #left {
-        width:50%; 
-        float:left;
+        width:100%;
+        margin: 0 15px 0 15px;
     
     }
 
     #container #right {
-        width:50;
-        float: right;
+        width:100%;
+        margin: 0 15px 0 15px;
+        float: left;
 
     }
 
@@ -510,8 +492,8 @@ footer a {
 
     article li {
         list-style-type: disc;
-        font-family: minion, serif;
-        padding-top: 5px;
+        font-family: minion pro, serif;
+        padding-top: 7px;
         margin: 0 20px 5px 0px;
         font-size:16px;
         line-height: 18px;
@@ -519,20 +501,8 @@ footer a {
 
     /* IMG RULES */
 
-    #headshot {
-        width: 22.6em;
-        margin-top: 15px;
-        margin-right: auto;
-        margin-left:auto;
-        margin-bottom: 15px;
-        border:double;
-        border-width: 7px;
-        border-color: #595959;
-        border-radius: 3px;
-    }
-
     h2 a img {
-        width: 400PX;
+        width: 200PX;
     }
   
 

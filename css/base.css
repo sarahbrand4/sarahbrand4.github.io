@@ -327,7 +327,6 @@ footer a {
     color: #333333;
     text-decoration: none;
 }
-
 @media screen and (max-width: 600px) {
     
     /* LAYOUT RULES */
@@ -486,7 +485,7 @@ footer a {
     /*Paragraph Rules */
     
     article p {
-        font-family: "minion pro", serif;
+        font-family: minion pro, serif;
         color: #000000;
         margin: 0 25px 0 25px;
         font-size: 16px;
@@ -494,7 +493,7 @@ footer a {
     }
     
     footer p {
-        font-family: "minion pro", serif;
+        font-family: minion pro, serif;
         color: #595959;
         margin: 0 20px 0 20px;
         font-size: 14px;
@@ -505,7 +504,7 @@ footer a {
 
     article li {
         list-style-type: disc;
-        font-family: "minion pro", serif;
+        font-family: minion pro, serif;
         padding-top: 7px;
         margin: 0 17px 0 17px;
         font-size:16px;
@@ -518,7 +517,7 @@ footer a {
     
     /* IMG RULES */
 
-    h2 aimg {
+    h2 a img {
         width: 200PX;
     }
   

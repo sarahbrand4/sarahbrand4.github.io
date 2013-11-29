@@ -162,12 +162,14 @@ article h5 {
 
 #container #left {
     width:500px;
+    height: auto;
     float:left;
     
 }
 
 #container #right {
     width:500px;
+    height: auto;
     float: right;
 
 }
@@ -194,6 +196,10 @@ article #experience {
     width:65%;
     float:left;
 }
+
+article #experience h2 {
+    background-color: #91C3CF;   
+}    
 
 
 /* PARAGRAPH RULES */

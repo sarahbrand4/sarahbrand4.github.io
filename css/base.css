@@ -428,7 +428,6 @@ footer a {
     }
     
     article h4 {
-        margin: 0 40px 0 40px;
         font-family: "Helvetica Light", arial, sans-serif;
         font-size: 16px;
         font-weight: lighter;
@@ -444,6 +443,7 @@ footer a {
 
     #container {
         width: 100%;
+        padding:0
 	}
 
 
@@ -461,13 +461,13 @@ footer a {
     }
 
     aside {
-        width: 35%;
-        float: right;
+        width: 90%;
+        float:left;
     }
 
     article #experience {
-        width:65%;
-        float:left;
+        width:90%;
+    
     }
 
     /*Paragraph Rules */
@@ -494,11 +494,15 @@ footer a {
         list-style-type: disc;
         font-family: minion pro, serif;
         padding-top: 7px;
-        margin: 0 20px 5px 0px;
+        margin: 0 17px 0 17px;
         font-size:16px;
         line-height: 18px;
     }
 
+    article #experience li {
+        margin: 0 17px 0 17px;
+    }
+    
     /* IMG RULES */
 
     h2 a img {

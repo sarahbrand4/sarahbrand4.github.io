@@ -112,9 +112,7 @@ article h1 {
 
 article h2 {
     width: 400px;
-    background-color: #91C3CF;
     margin: 15px 35px 15px 35px;
-    padding: 2px 0 2px 0;
     text-align:center;
     font-family: helvetica, arial, sans-serif;
     font-size: 26px;
@@ -401,9 +399,7 @@ footer a {
     
     article h2 {
         width: 90%;
-        background-color: #91C3CF;
         margin: 15px 0 15px 4px;
-        padding: 15px 0 2px 0;
         text-align:center;
         font-family: helvetica, arial, sans-serif;
         font-size: 16px;

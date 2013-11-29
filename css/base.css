@@ -111,7 +111,7 @@ article h1 {
 }
 
 article h2 {
-    width: 400px;
+    width: 500px;
     margin: 15px 35px 15px 35px;
     text-align:center;
     font-family: helvetica, arial, sans-serif;
@@ -120,7 +120,7 @@ article h2 {
 }
 
 article h2 a {
-    width:400px;
+    width:500px;
     text-align:center;
     font-family: helvetica, arial, sans-serif;
     font-size: 26px;
@@ -157,18 +157,17 @@ article h5 {
     width: 1000px;
 	margin-left:auto;
 	margin-right:auto;
-    padding:0;
 }
 
 
 #container #left {
-    width:50%;
+    width:500px;
     float:left;
     
 }
 
 #container #right {
-    width:50%;
+    width:500px;
     float: right;
 
 }
@@ -232,7 +231,11 @@ article li {
 /* IMG RULES */
 
 h2 a img {
-    width: 400PX;
+    width: 450px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:#91C3CF;
+    
 }
 
 /* LINK RULES */

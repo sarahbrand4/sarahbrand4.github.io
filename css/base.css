@@ -403,7 +403,7 @@ footer a {
         width: 90%;
         background-color: #91C3CF;
         margin: 15px 0 15px 4px;
-        padding: 2px 0 2px 0;
+        padding: 15px 0 2px 0;
         text-align:center;
         font-family: helvetica, arial, sans-serif;
         font-size: 16px;
@@ -412,7 +412,7 @@ footer a {
     }
     
     article h2 a {
-        width:400px;
+        width:90%;
         text-align:center;
         font-family: helvetica, arial, sans-serif;
         font-size: 16px;
@@ -421,13 +421,17 @@ footer a {
     }
 
     article h3 {
-        margin: 0 40px 0 40px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin: 0 15px 0 15px;
         font-family: "Helvetica Light", arial, sans-serif;
         font-size: 16px;
         font-weight: lighter;
     }
     
     article h4 {
+        padding-top: 7px;
+        margin: 0 20px 0 20px;
         font-family: "Helvetica Light", arial, sans-serif;
         font-size: 16px;
         font-weight: lighter;
@@ -443,7 +447,7 @@ footer a {
 
     #container {
         width: 100%;
-        padding:0
+        padding:0;
 	}
 
 
@@ -463,10 +467,14 @@ footer a {
     aside {
         width: 90%;
         float:left;
+        padding-bottom: 10px;
+        margin: 0 20px 0 20px;
+
     }
 
     article #experience {
         width:90%;
+        margin: 0 20px 0 20px;
     
     }
 

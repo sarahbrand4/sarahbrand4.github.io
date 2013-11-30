@@ -32,7 +32,7 @@ nav {
 article {
     background-color: #FFFFFF;
     margin: 0 40px 0 40px; 
-    padding: 5px 5px 300px 5px;
+    padding: 5px 5px 0 5px;
     border: hidden;
     border-radius: 3px;
 }

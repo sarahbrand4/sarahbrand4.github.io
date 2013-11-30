@@ -247,13 +247,13 @@ h2 a img {
 article #iframe {
     width: 50%;
     float:right;
-    margin: 5px 0 5px 10px;
+    margin: 5px 10px 5px 10px;
 }
 
 #iframe iframe {
     width: 560px;
     height: 315px;
-    padding: 5px 0 5px 10px;
+    padding: 5px 10px 5px 10px;
 
     
 }

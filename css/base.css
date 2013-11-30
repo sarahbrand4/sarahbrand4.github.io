@@ -28,11 +28,12 @@ nav {
     text-align:center;
     
 }
-
+    
+    
 article {
     background-color: #FFFFFF;
     margin: 0 40px 0 40px; 
-    padding: 5px 5px 100px 5px;
+    padding: 5px 5px 5px 5px;
     border: hidden;
     border-radius: 3px;
 }
@@ -252,14 +253,15 @@ h2 a img {
     
 }
 
-iframe {
-    width: 560px;
-    height: 315px;
-    padding: 5px 10px 5px 10px;
+article #iframe {
+    width: 25%;
+    padding: 0 10px 10px 10px;
+    float: right;
 }
 
-article iframe {
-    float:right;
+article #iframe iframe {
+    width: 280px;
+    height: 157.5px;
 }    
 
 /* LINK RULES */

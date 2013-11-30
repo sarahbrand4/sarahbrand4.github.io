@@ -133,7 +133,7 @@ article h2 a {
 article h3 {
     margin: 0 40px 0 40px;
     font-family: "Helvetica Light", arial, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: lighter;
 }
     
@@ -148,7 +148,7 @@ article h4 {
 article h5 {
     margin: 0 40px 0 40px;
     font-family: "Helvetica Light", arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
 }
@@ -234,7 +234,7 @@ article li {
 
 }
 
-/* IMG RULES */
+/* IMG AND VIDEO RULES */
 
 h2 a img {
     width: 450px;
@@ -243,6 +243,14 @@ h2 a img {
     border-color:#91C3CF;
     
 }
+
+#iframe {
+    width: 50%;
+    float:right;
+    margin: 5px 5px 5px 10px;
+}
+
+
 
 /* LINK RULES */
 

@@ -32,7 +32,7 @@ nav {
 article {
     background-color: #FFFFFF;
     margin: 0 40px 0 40px; 
-    padding: 5px 5px 0 5px;
+    padding: 5px 5px 100px 5px;
     border: hidden;
     border-radius: 3px;
 }
@@ -153,6 +153,14 @@ article h5 {
     text-align: center;
 }
 
+article h6 {
+    margin: 0 40px 0 40px;
+    font-family: "Helvetica Light", arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center; 
+}    
+
 #container {
     width: 1000px;
 	margin-left:auto;
@@ -244,19 +252,15 @@ h2 a img {
     
 }
 
-article #iframe {
-    width: 50%;
-    float:right;
-    margin: 5px 10px 5px 10px;
-}
-
-#iframe iframe {
+iframe {
     width: 560px;
     height: 315px;
     padding: 5px 10px 5px 10px;
-
-    
 }
+
+article iframe {
+    float:right;
+}    
 
 /* LINK RULES */
 

@@ -28,7 +28,7 @@ nav {
     text-align:center;
     
 }
-    
+
     
 article {
     background-color: #FFFFFF;
@@ -254,14 +254,18 @@ h2 a img {
 }
 
 article #iframe {
-    width: 25%;
-    padding: 0 10px 10px 10px;
-    float: right;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    
 }
 
 article #iframe iframe {
     width: 280px;
     height: 157.5px;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
 }    
 
 /* LINK RULES */

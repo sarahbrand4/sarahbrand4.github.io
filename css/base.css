@@ -32,7 +32,7 @@ nav {
     
 article {
     background-color: #FFFFFF;
-    margin: 0 30px 0 30px; 
+    margin: 0 40px 0 40px; 
     padding: 5px 0 5px 0;
     border: hidden;
     border-radius: 3px;
@@ -40,7 +40,7 @@ article {
 
 
 footer {
-    margin: 0 30px 0 0px;
+    margin: 0 40px 0 40px;
     padding: 10px 0 10px 0;
     text-align:center;
     clear:both;
@@ -363,7 +363,7 @@ footer a img {
     
 }    
     
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
     
     /* LAYOUT RULES */
     

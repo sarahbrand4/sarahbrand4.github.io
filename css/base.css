@@ -262,8 +262,8 @@ article #iframe {
 }
 
 article #iframe iframe {
-    width: 420px;
-    height: 315px;
+    width: 240px;
+    height: 180px;
     display: inline-block;
     padding: 20px 20px 20px 20px;
 }    

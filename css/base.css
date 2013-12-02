@@ -187,7 +187,7 @@ article h6 {
 aside {
     width: 35%;
     float: right;
-    
+    background-color: #FFFFFF;
 }
 
 
@@ -204,6 +204,7 @@ aside h2 {
 article #experience {
     width:65%;
     float:left;
+    background-color: #FFFFFF;
 }
 
 article #experience h2 {
@@ -567,7 +568,7 @@ footer a img {
     article #iframe iframe {
         width: 210px;
         height: 135px;
-        padding: 10px 25px 10px 25px;
+        padding: 10px 15px 10px 15px;
     
     }  
         

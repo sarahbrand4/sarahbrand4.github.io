@@ -314,6 +314,19 @@ h4 a:hover {
     text-decoration:underline;
 }
 
+h6 a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+h6 a:visited {
+    color:#595959;
+}
+
+h6 a:hover {
+    color:#3D8697;
+    text-decoration:underline;
+}
 
 
 ul a:link {

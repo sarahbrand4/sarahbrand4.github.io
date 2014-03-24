@@ -32,15 +32,14 @@ nav {
     
 article {
     background-color: #FFFFFF;
-    margin: 0 40px 0 40px; 
+    margin: 0 260px 0 260px; 
     padding: 5px 0 5px 0;
-    border: hidden;
-    border-radius: 3px;
+
 }
 
 
 footer {
-    margin: 0 40px 0 40px;
+    margin: 0 260px 0 260px;
     padding: 10px 0 10px 0;
     text-align:center;
     clear:both;
@@ -88,9 +87,6 @@ header nav a {
     border: none;
     background-color: #595959;
     line-height: 30px;
-    border: hidden;
-    border-radius: 2px;
-    
 
 }
 
@@ -168,6 +164,15 @@ article h6 {
 	margin-right:auto;
 }
 
+#container h2 {
+    width:500px;
+    text-align:center;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    
+}    
 
 #container #left {
     width:500px;
@@ -194,7 +199,7 @@ aside {
 aside h2 {
     width: 300px;
     background-color: #91C3CF;
-    margin: 15px 35px 15px 35px;
+    margin: 15px 15px 15px 15px;
     text-align:center;
     font-family: helvetica, arial, sans-serif;
     font-size: 26px;
@@ -249,25 +254,9 @@ article li {
 h2 a img {
     width: 450px;
     border-width: 15px;
-    border-style: solid;
-    border-color:#91C3CF;
     
 }
 
-article #iframe {
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #FFFFFF;
-    
-}
-
-article #iframe iframe {
-    width: 280px;
-    height: 180px;
-    display: inline-block;
-    padding: 20px 20px 20px 20px;
-}    
 
 /* LINK RULES */
 

@@ -368,9 +368,9 @@ footer a img {
 @media only screen and (max-width: 960px) {
 
     #container {
-        width: 100%;
-        padding-left: 225px;
-        padding-right: 225px;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
 	}
 
     #container h2 a{
@@ -380,22 +380,10 @@ footer a img {
         font-size: 26px;
         font-weight: lighter;
         padding-bottom: 5px;
+        display: inline-block
     
     }
     
-    #container #left {
-        width:100%;
-        margin: 0 15px 0 15px;
-
-    
-    }
-
-    #container #right {
-        width:100%;
-        margin: 0 15px 0 15px;
-
-
-    }    
     
     
 }
@@ -524,8 +512,9 @@ footer a img {
     }
 
     #container {
-        width: 100%;
-        padding:0;
+        width: 76%;
+        margin-left: auto;
+        margin-right: auto;
 	}
 
     #container h2 {
@@ -534,7 +523,6 @@ footer a img {
         font-family: helvetica, arial, sans-serif;
         font-size: 16px;
         font-weight: lighter;
-        padding-bottom: 15px;
     
     }
     

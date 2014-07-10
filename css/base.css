@@ -6,21 +6,18 @@
 body {
     background-image: url(http://www.webtexture.net/wp-content/gallery/20-seamless-paper-texture/papar_texture_thumb03.jpg);
     background-repeat:repeat;
-
 }
 
 /* LAYOUT RULES */
 
 header {
-    width: 40em;
+    width: 100%;
     margin-top: 30px;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: auto;
     text-align:center;
-    border: double;
-    border-width: 5px;
-    border-color: #595959;
+
 }
 
 nav {
@@ -31,15 +28,13 @@ nav {
 
 
 article {
-    background-color: #FFFFFF;
     margin: 0 260px 0 260px; 
     padding: 5px 0 5px 0;
 
 }
 
 #design {
-    background-image: url(http://www.webtexture.net/wp-content/gallery/20-seamless-paper-texture/papar_texture_thumb03.jpg);
-    background-repeat:repeat;
+
 }  
 
 footer {
@@ -54,28 +49,6 @@ footer {
 /* HEADER RULES */
 
 
-
-header h1 a {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 55px;
-    font-weight: lighter;
-    
-}
-
-header h2 {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
-    color: #3D8697;
-}
-
-
-header h1 a {
-    color: #333333;
-    text-decoration:none;
-    font-weight: lighter;
-}
-
 header nav {
     text-decoration: none;
     color: #FFFFFF;
@@ -83,13 +56,13 @@ header nav {
 } 
 
 header nav a {
-    font-family: helvetica, arial, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    margin: 10px 7px 7px 10px;
+    font-family: "oswald", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 10px 7px 0 7px;
     display: inline-block;    
     border: none;
-    background-color: #595959;
+    background-color: none;
     line-height: 30px;
 
 }
@@ -99,33 +72,33 @@ header nav a {
 article h1 {
     width: 25em;
     text-align: center;
-    background-color: #91C3CF;
+    background-color: none;
     margin-top: 15px;
     margin-right: auto;
     margin-left:auto;
     margin-bottom: 15px;
-    padding: 2px 0 2px 0;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 26px;
-    font-weight: lighter;
-    
+    font-weight: 400;
+    color: #333333;
 }
 
 article h2 {
     width: 500px;
     margin: 15px 35px 15px 35px;
     text-align:center;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 26px;
-    font-weight: lighter;
+    font-weight: 400;
+    color: #333333;
 }
 
 article h2 a {
     width:500px;
     text-align:center;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 26px;
-    font-weight: lighter;
+    font-weight: 300;
     
     
     
@@ -133,32 +106,33 @@ article h2 a {
 
 article h3 {
     margin: 0 40px 0 40px;
-    font-family: "Helvetica Light", arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 24px;
-    font-weight: lighter;
+    font-weight: 300;
+    color: #2E6782;
 }
     
 article h4 {
     margin: 0 40px 0 40px;
-    font-family: "Helvetica Light", arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 22px;
-    font-weight: lighter;
+    font-weight: 300;
     text-align: center;
 }
 
 article h5 {
     margin: 0 40px 0 40px;
-    font-family: "Helvetica Light", arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     text-align: center;
 }
 
 article h6 {
     margin: 0 40px 0 40px;
-    font-family: "Helvetica Light", arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 300;
     text-align: center; 
 }    
 
@@ -171,9 +145,9 @@ article h6 {
 #container h2 {
     width:500px;
     text-align:center;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 26px;
-    font-weight: lighter;
+    font-weight: 300;
     padding-bottom: 10px;
     
 }    
@@ -202,10 +176,10 @@ aside {
 
 aside h2 {
     width: 250px;
-    background-color: #91C3CF;
+    background-color: none;
     margin: 15px 15px 15px 15px;
     text-align:center;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "oswald", sans-serif;
     font-size: 26px;
     
 }
@@ -217,27 +191,29 @@ article #experience {
 }
 
 article #experience h2 {
-    background-color: #91C3CF;   
+    background-color: #FFFFFF;   
 }    
 
 
 /* PARAGRAPH RULES */
 
 article p {
-    font-family: "minion pro", serif;
+    font-family: "roboto slab", serif;
     color: #000000;
     margin: 0 50px 0 50px;
-    font-size: 18px;
+    font-size: 16px;
     line-height:18px;
+    font-weight: 300;
     
 }
 
 footer p {
-    font-family: "minion pro", serif;
+    font-family: "roboto slab", serif;
     color: #595959;
     margin: 0 40px 0 40px;
     font-size: 14px;
     line-height:14px;
+    font-weight: 300;
 }
     
 
@@ -245,11 +221,12 @@ footer p {
 
 article li {
     list-style-type: disc;
-    font-family: "minion pro", serif;
+    font-family: "roboto slab", serif;
     padding-top: 5px;
     margin: 0 50px 5px 50px;
     font-size:18px;
     line-height: 18px;
+    font-weight: 300;
 
 }
 
@@ -271,15 +248,15 @@ h2 a img {
 
 nav a:link, nav a:visited {
     padding: 0 16px;
-    color: #FFFFFF;
+    color: #3D8697;
     text-decoration: none;
 
 }
 
 nav a:hover, nav a:active {
-    background-color: #91C3CF;
+    background-color: none;
     text-decoration: none;
-    color:#000000;
+    color:#333333;
     
 }
 
@@ -403,17 +380,17 @@ footer a img {
     /* HEADER RULES */
     
     header h1 a {
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 50px;
-        font-weight: lighter;
+        font-weight: 300;
         
     }
     
     
     header h2 {
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 22px;
-        font-weight: lighter;
+        font-weight: 300;
         color: #3D8697;
     }
 
@@ -426,8 +403,8 @@ footer a img {
 
     
     header nav a {
-        font-family: helvetica, arial, sans-serif;
-        font-weight: lighter;
+        font-family: "oswald", sans-serif;
+        font-weight: 300;
         font-size: 18px;
         margin: 5px 5px 5px 5px;
         display: inline-block;    
@@ -447,7 +424,7 @@ footer a img {
         background-color: #91C3CF;
         margin-top: 15px;
         margin-bottom: 15px;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
         line-height: 18px;
     }
@@ -456,7 +433,7 @@ footer a img {
         width: 90%;
         margin: 15px 10px 15px 10px;
         text-align:center;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
         line-height: 18px;
         
@@ -465,9 +442,9 @@ footer a img {
     article h2 a {
         width:90%;
         text-align:center;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     
     }
 
@@ -475,24 +452,24 @@ footer a img {
         padding-top: 7px;
         padding-bottom: 7px;
         margin: 0 15px 0 15px;
-        font-family: "Helvetica Light", arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     }
     
     article h4 {
         padding-top: 7px;
         margin: 0 20px 0 20px;
-        font-family: "Helvetica Light", arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     }
 
     article h5 {
         margin: 0 40px 0 40px;
-        font-family: "Helvetica Light", arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
         text-align: center;
     }
 
@@ -504,9 +481,9 @@ footer a img {
     #container h2 a{
         width:100%;
         text-align:center;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 26px;
-        font-weight: lighter;
+        font-weight: 300;
         padding-bottom: 5px;
     
     }
@@ -551,30 +528,33 @@ footer a img {
     /*Paragraph Rules */
     
     article p {
-        font-family: minion pro, serif;
+        font-family: "roboto slab", serif;
         color: #000000;
         margin: 0 25px 0 25px;
         font-size: 16px;
         line-height:18px;
+        font-weight: 300;
     }
     
     footer p {
-        font-family: minion pro, serif;
+        font-family: "roboto slab", serif;
         color: #595959;
         margin: 0 20px 0 20px;
         font-size: 14px;
         line-height:16px;
+        font-weight: 300;
     }
 
     /* LIST RULES */
 
     article li {
         list-style-type: disc;
-        font-family: minion pro, serif;
+        font-family: "roboto slab", serif;
         padding-top: 7px;
         margin: 0 17px 0 17px;
         font-size:16px;
         line-height: 18px;
+        font-weight: 300;
     }
 
     article #experience li {
@@ -620,17 +600,17 @@ footer a img {
     /* HEADER RULES */
     
     header h1 a {
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 50px;
-        font-weight: lighter;
+        font-weight: 300;
         
     }
     
     
     header h2 {
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 22px;
-        font-weight: lighter;
+        font-weight: 300;
         color: #3D8697;
     }
 
@@ -643,8 +623,8 @@ footer a img {
 
     
     header nav a {
-        font-family: helvetica, arial, sans-serif;
-        font-weight: lighter;
+        font-family: "oswald", sans-serif;
+        font-weight: 300;
         font-size: 18px;
         margin: 5px 5px 5px 5px;
         display: inline-block;    
@@ -664,7 +644,7 @@ footer a img {
         background-color: #91C3CF;
         margin-top: 15px;
         margin-bottom: 15px;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
         line-height: 18px;
     }
@@ -673,7 +653,7 @@ footer a img {
         width: 90%;
         margin: 15px 10px 15px 10px;
         text-align:center;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
         line-height: 18px;
         
@@ -682,9 +662,9 @@ footer a img {
     article h2 a {
         width:90%;
         text-align:center;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     
     }
 
@@ -692,24 +672,24 @@ footer a img {
         padding-top: 7px;
         padding-bottom: 7px;
         margin: 0 15px 0 15px;
-        font-family: "Helvetica Light", arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     }
     
     article h4 {
         padding-top: 7px;
         margin: 0 20px 0 20px;
-        font-family: "Helvetica Light", arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     }
 
     article h5 {
         margin: 0 40px 0 40px;
-        font-family: "Helvetica Light", arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
         text-align: center;
     }
 
@@ -722,9 +702,9 @@ footer a img {
     #container h2 {
         width: 100%;
         text-align:center;
-        font-family: helvetica, arial, sans-serif;
+        font-family: "oswald", sans-serif;
         font-size: 16px;
-        font-weight: lighter;
+        font-weight: 300;
     
     }
     
@@ -766,30 +746,33 @@ footer a img {
     /*Paragraph Rules */
     
     article p {
-        font-family: minion pro, serif;
+        font-family: "roboto slab", serif;
         color: #000000;
         margin: 0 25px 0 25px;
         font-size: 16px;
         line-height:18px;
+        font-weight: 300;
     }
     
     footer p {
-        font-family: minion pro, serif;
+        font-family: "roboto slab", serif;
         color: #595959;
         margin: 0 20px 0 20px;
         font-size: 14px;
         line-height:16px;
+        font-weight: 300;
     }
 
     /* LIST RULES */
 
     article li {
         list-style-type: disc;
-        font-family: minion pro, serif;
+        font-family: "roboto slab", serif;
         padding-top: 7px;
         margin: 0 17px 0 17px;
         font-size:16px;
         line-height: 18px;
+        font-weight: 300;
     }
 
     article #experience li {

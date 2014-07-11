@@ -4,15 +4,14 @@
 }
 
 body {
-    background-image: url(http://www.webtexture.net/wp-content/gallery/20-seamless-paper-texture/papar_texture_thumb03.jpg);
-    background-repeat:repeat;
+
 }
 
 /* LAYOUT RULES */
 
 header {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-right: auto;
     margin-bottom: 10px;
     margin-left: auto;
@@ -137,14 +136,15 @@ article h6 {
 }    
 
 #container {
-    width: 1000px;
-	margin-left:auto;
-	margin-right:auto;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 
 #container h2 {
     width:500px;
-    text-align:center;
     font-family: "oswald", sans-serif;
     font-size: 26px;
     font-weight: 300;
@@ -152,19 +152,6 @@ article h6 {
     
 }    
 
-#container #left {
-    width:500px;
-    height: auto;
-    float:left;
-    
-}
-
-#container #right {
-    width:500px;
-    height: auto;
-    float: right;
-
-}
 
 
 aside {
@@ -232,10 +219,10 @@ article li {
 
 /* IMG AND VIDEO RULES */
 
-h2 a img {
-    width: 450px;
-    border-width: 15px;
-    
+#container img {
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;    
 }
 
 #design img {

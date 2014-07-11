@@ -20,8 +20,13 @@ header {
 }
 
 nav {
-    margin: 0 0 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     text-align:center;
+    position: fixed;
+    background-color: #FFFFFF;
+    padding: 5px 0 5px 0;
     
 }
 

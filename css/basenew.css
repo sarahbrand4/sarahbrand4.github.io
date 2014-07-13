@@ -86,59 +86,6 @@ article h1 {
     color: #333333;
 }
 
-article h2 {
-    width: 500px;
-    margin: 15px 35px 15px 35px;
-    text-align:center;
-    font-family: "oswald", sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    color: #333333;
-}
-
-article h2 a {
-    width:500px;
-    text-align:center;
-    font-family: "oswald", sans-serif;
-    font-size: 26px;
-    font-weight: 300;
-    
-    
-    
-}
-
-article h3 {
-    margin: 0 40px 0 40px;
-    font-family: "oswald", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #2E6782;
-}
-    
-article h4 {
-    margin: 0 40px 0 40px;
-    font-family: "oswald", sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    text-align: center;
-}
-
-article h5 {
-    margin: 0 40px 0 40px;
-    font-family: "oswald", sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-}
-
-article h6 {
-    margin: 0 40px 0 40px;
-    font-family: "oswald", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    text-align: center; 
-}    
-
 #container {
     width: 100%;
     text-align: center;
@@ -156,35 +103,6 @@ article h6 {
     font-weight: 300;
     padding-bottom: 10px;
     
-}    
-
-
-
-aside {
-    width: 35%;
-    float: right;
-    background-color: #FFFFFF;
-}
-
-
-aside h2 {
-    width: 250px;
-    background-color: none;
-    margin: 15px 15px 15px 15px;
-    text-align:center;
-    font-family: "oswald", sans-serif;
-    font-size: 26px;
-    
-}
-
-article #experience {
-    width:65%;
-    float:left;
-    background-color: #FFFFFF;
-}
-
-article #experience h2 {
-    background-color: #FFFFFF;   
 }    
 
 
@@ -212,16 +130,6 @@ footer p {
 
 /* LIST RULES */
 
-article li {
-    list-style-type: disc;
-    font-family: "roboto slab", serif;
-    padding-top: 5px;
-    margin: 0 50px 5px 50px;
-    font-size:18px;
-    line-height: 18px;
-    font-weight: 300;
-
-}
 
 /* IMG AND VIDEO RULES */
 
@@ -253,78 +161,6 @@ nav a:hover, nav a:active {
     color:#333333;
     
 }
-
-h2 a:link {
-    color: #000000;
-    text-decoration: none;
-}
-
-h2 a:visited {
-    color: #000000;
-}
-
-h2 a:hover {
-    color:#595959;
-    text-decoration:underline;
-}
-
-
-h4 a:link {
-    color: #000000;
-    text-decoration: underline;
-}
-
-h4 a:visited {
-    color:#595959;
-}
-
-h4 a:hover {
-    color:#3D8697;
-    text-decoration:underline;
-}
-
-h6 a:link {
-    color: #000000;
-    text-decoration: underline;
-}
-
-h6 a:visited {
-    color:#595959;
-}
-
-h6 a:hover {
-    color:#3D8697;
-    text-decoration:underline;
-}
-
-
-ul a:link {
-    color: #000000;
-    text-decoration: underline;
-}
-
-ul a:visited {
-    color:#595959;
-}
-
-ul a:hover {
-    color:#3D8697;
-    text-decoration:underline;
-}
-
-p a:link {
-    color: #000000;
-    text-decoration: underline;
-}
-
-p a:visited {
-    color:#595959;
-}
-
-p a:hover {
-    color:#3D8697;
-    text-decoration:underline;
-}    
 
 
 /* FOOTER RULES */

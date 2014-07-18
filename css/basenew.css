@@ -61,8 +61,10 @@ header nav a {
 
 /* ARTICLE RULES */
 
-article {
-    
+#container {
+    width: 100%;
+    margin-left:120px;
+    margin-right:120px;
     
     
 }
@@ -77,20 +79,32 @@ article h1 {
     color: #333333;
 }
 
-#about {
+#stick {
+    width: 980px;
+    
+    
+}
 
+#about {
+    width: 620px;
+    float: left;
+    margin: 10px;
+    
 
 }
 
 aside {
     background-color: green;
-    
+    width: 300px;
+    float: right;
+    margin: 10px;
+
 
 }    
 
 #work {
     background-color: orange;
-
+    clear: both;
     
 }    
 
@@ -122,18 +136,13 @@ footer p {
 }
     
 
-/* LIST RULES */
-
-
 /* IMG AND VIDEO RULES */
 
 
-#about img {
-
-  
-}
 
 #work img {
+    width: 300px;
+    margin: 10px;
 
 }
 

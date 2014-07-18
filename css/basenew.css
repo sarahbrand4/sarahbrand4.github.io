@@ -4,8 +4,7 @@
 }
 
 body {
-    margin-left: 154px;
-    margin-right: 154px;
+
 }
 
 /* LAYOUT RULES */
@@ -33,7 +32,6 @@ nav {
 
 footer {
     width: 100%;
-    margin: 10px;
     text-align:center;
     clear:both;
     background-color: none;
@@ -63,6 +61,12 @@ header nav a {
 
 /* ARTICLE RULES */
 
+article {
+    
+    
+    
+}
+
 article h1 {
     text-align: center;
     background-color: none;
@@ -74,22 +78,19 @@ article h1 {
 }
 
 #about {
-    width: 100%;
+
 
 }
 
 #aboutme {
     background-color: green;
-    float: right;
-    width: 350px;
-    margin: 10px;    
+    
 
 }    
 
 #work {
     background-color: orange;
-    clear: both;    
-    width: 100%;
+
     
 }    
 
@@ -121,14 +122,12 @@ footer p {
 
 
 #about img {
-    width: 720px;
-    margin: 10px;
-    float: left;  
+
+  
 }
 
 #work img {
-    width: 350px;
-    margin: 10px;
+
 }
 
 /* LINK RULES */

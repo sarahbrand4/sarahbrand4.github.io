@@ -59,17 +59,11 @@ header nav a {
 
 }
 
-/* ARTICLE RULES */
+/* SECTION RULES */
 
-#container {
-    width: 100%;
-    margin-left:120px;
-    margin-right:120px;
-    
-    
-}
 
-article h1 {
+
+section h1 {
     text-align: center;
     background-color: none;
     margin-bottom: 15px;
@@ -78,39 +72,93 @@ article h1 {
     font-weight: 400;
     color: #333333;
 }
-
-#stick {
-    width: 980px;
-    
-    
+  
+section {
+    clear:both;
+    padding: 0px;
+    margin: 0px;
 }
 
-#about {
-    width: 620px;
+/* COLUMN SETUP */
+
+.col {
+    display: block;
     float: left;
-    margin: 10px;
+    margin: 1% 0 1% 1.6%;
     
-
 }
 
-aside {
-    background-color: green;
-    width: 300px;
-    float: right;
-    margin: 10px;
+.col:first-child {
+    margin-left: 0;
+}
 
 
-}    
+/* GROUPING */
 
-#work {
-    background-color: orange;
-    clear: both;
+.group:before,
+.group:after {
     
-}    
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/* GRID OF SIX */
+
+.span_6_of_6 {
+    width: 100%;
+}
+    
+.span_5_of_6 {
+    width: 83.06%;
+}
+
+.span_4_of_6 {
+    width: 66.13%;
+    background-color: green;    
+}
+
+.span_3_of_6 {
+    width: 49.2%;
+}
+
+.span_2_of_6 {
+    width: 32.26%;
+    background: black;
+}
+
+.span_1_of_6 {
+    width: 15.33%;
+}
+
+/* GRID OF THREE */
+
+.span_3_of_3 {
+    width: 100%;
+    background-color: purple;
+}
+
+.span_2_of_3 {
+    width: 66.13%;
+    background-color: blue;
+}
+
+.span_1_of_3 {
+    width: 32.26%;
+    background-color: orange;
+}
+
 
 /* PARAGRAPH RULES */
 
-article p {
+section p {
     font-family: "roboto slab", serif;
     color: #000000;
     font-size: 16px;
@@ -119,13 +167,6 @@ article p {
 
 }
 
-aside p {
-    font-family: "roboto slab", serif;
-    color: #000000;
-    font-size: 16px;
-    line-height:18px;
-    font-weight: 300;    
-}
 
 footer p {
     font-family: "roboto slab", serif;
@@ -139,12 +180,6 @@ footer p {
 /* IMG AND VIDEO RULES */
 
 
-
-#work img {
-    width: 300px;
-    margin: 10px;
-
-}
 
 /* LINK RULES */
 
@@ -180,4 +215,84 @@ footer a img {
 
 }    
 
-  
+/*  DO SOMETHING AT LESS THAN 960 PIXELS */
+
+
+@media only screen and (max-width: 960px) {
+	.col { 
+		margin: 1% 0 1% 0;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+    .span_6_of_6 {
+		width: 100%; 
+	}
+	.span_5_of_6 {
+		width: 100%; 
+	}
+	.span_4_of_6 {
+		width: 100%;
+	}
+    .span_3_of_6 {
+		width: 100%; 
+	}
+	.span_2_of_6 {
+		width: 100%; 
+	}
+	.span_1_of_6 {
+		width: 100%;
+	}
+    
+    .span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}      
+    
+    
+
+
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
+
+@media only screen and (max-width: 600px) {
+	.col { 
+		margin: 1% 0 1% 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .span_6_of_6 {
+		width: 100%; 
+	}
+	.span_5_of_6 {
+		width: 100%; 
+	}
+	.span_4_of_6 {
+		width: 100%;
+	}
+    .span_3_of_6 {
+		width: 100%; 
+	}
+	.span_2_of_6 {
+		width: 100%; 
+	}
+	.span_1_of_6 {
+		width: 100%;
+	}
+    
+    .span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}  

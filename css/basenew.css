@@ -12,9 +12,9 @@ body {
 header {
     width: 100%;
     margin-top: 5px;
-    margin-right: auto;
+
     margin-bottom: 10px;
-    margin-left: auto;
+
     text-align:center;
 
 }
@@ -29,12 +29,26 @@ nav {
     
 }
 
+#container {
+    clear:both;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px;
+}
+
+#about {
+    height: 50%;    
+    
+    
+}    
 
 footer {
     width: 100%;
+    height: 200px;
     text-align:center;
     clear:both;
-    background-color: none;
+    background-color: #255C7D;
+    margin-bottom: 10px;
 }
     
 
@@ -73,10 +87,13 @@ section h1 {
     color: #333333;
 }
   
-section {
-    clear:both;
-    padding: 0px;
-    margin: 0px;
+section p {
+    font-family: "roboto slab", serif;
+    color: #000000;
+    font-size: 16px;
+    line-height:18px;
+    font-weight: 300;
+
 }
 
 /* COLUMN SETUP */
@@ -133,22 +150,13 @@ section {
 .span_2_of_6 {
     width: 32.26%;
 
-
 }
 
 .span_1_of_6 {
     width: 15.33%;
 }
 
-.span_4_of_6 img {
-    width: 100%;
 
-}
-
-.span_2_of_6 img {
-    width: 100%;
-
-}
 
 /* GRID OF THREE */
 
@@ -166,6 +174,18 @@ section {
     width: 32.26%;
 }
 
+
+/* IMG AND VIDEO RULES */
+
+.span_4_of_6 img {
+    width: 100%;
+
+}
+
+.span_2_of_6 img {
+    width: 100%;
+
+}
 .span_3_of_3 img {
     width: 100%;
 
@@ -181,32 +201,6 @@ section {
 
 }
 
-
-/* PARAGRAPH RULES */
-
-section p {
-    font-family: "roboto slab", serif;
-    color: #000000;
-    font-size: 16px;
-    line-height:18px;
-    font-weight: 300;
-
-}
-
-
-footer p {
-    font-family: "roboto slab", serif;
-    color: #969696;
-    font-size: 14px;
-    line-height:14px;
-    font-weight: 300;
-}
-    
-
-/* IMG AND VIDEO RULES */
-
-
-
 /* LINK RULES */
 
 nav a:link, nav a:visited {
@@ -219,7 +213,7 @@ nav a:link, nav a:visited {
 nav a:hover, nav a:active {
     background-color: none;
     text-decoration: none;
-    color:#333333;
+    color:#585858;
     
 }
 
@@ -227,23 +221,37 @@ nav a:hover, nav a:active {
 
 /* FOOTER RULES */
 
-footer a {
-    clear:both;
-    color: #333333;
-    text-decoration: none;
+footer h1 {
+    text-align: center;
+    background-color: none;
+    margin: 10px 0 10px 0;
+    font-family: "oswald", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #FFFFFF;    
+    
+    
+}
+
+footer p {
+    font-family: "roboto slab", serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height:18px;
+    font-weight: 300;
+    margin: 5px 0 5px 0;
 }
 
 footer a img {
     display:inline-block;
-    margin: 0 2px 2px 2px;
+    margin: 0 10px 10px 10px;
     display: inline-block;    
     border: none;
 
 }    
 
 /*  DO SOMETHING AT LESS THAN 960 PIXELS */
-
-
+ 
     
 
 
@@ -293,9 +301,5 @@ footer a img {
         width: 100%;
 
     }
-    
-    .span_2_of_6 img {
-        width: 100%;
-        height: 25%;
-    }
+
 }    

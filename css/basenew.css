@@ -40,6 +40,8 @@ section {
 	margin: 0px;
 }
 
+
+
 #about p {
     font-family: "roboto slab", serif;
     color: #000000;
@@ -96,12 +98,13 @@ section h1 {
     
 #work h1 {
     text-align: center;
-    margin: 2px 0 2px 0;
+    margin: 20px 0 20px 0;
     padding: 10px 0 10px 0;
     font-family: "oswald", sans-serif;
     font-size: 26px;
     font-weight: 300;
-    color: #255C7D;    
+    color: #585858;
+    text-decoration: underline; 
     
 }
 

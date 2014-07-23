@@ -247,6 +247,11 @@ section p {
     padding: 5px;
 }
 
+.span_1_of_2 img {
+    width: 100%;
+}    
+    
+
 /* LINK RULES */
 
 nav a:link, nav a:visited {

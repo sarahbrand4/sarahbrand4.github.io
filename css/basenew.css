@@ -128,7 +128,6 @@ section p {
     font-size: 16px;
     line-height: 20px;
     font-weight: 300;
-    background-color: #
 
 }
 
@@ -300,5 +299,17 @@ footer a img {
 
 }    
 
- 
+footer a:link{
+    color: #FFFFFF;   
+    text-decoration: none;    
+}
+
+footer a:visited {
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+
+footer a:hover, active {
+    color: #000000;    
+}
           
